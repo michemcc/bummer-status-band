@@ -5,7 +5,7 @@ This is a static, mobile-responsive webpage intended for a musician or band. Bui
 1. Clone the repo and adjust the html, javascript, and css styling as desired.
 
 ## Notes
-This repo is in development as of February 5, 2022.
+This repo is in development as of February 2022.
 
     Michael McCarthy <michemcc@outlook.com>
     https://www.linkedin.com/in/michemcc/
