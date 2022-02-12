@@ -123,15 +123,16 @@
 						<h2>Get In Touch</h2>
 					</header>
 					<p>If you are interested in learning more about the Bummer Status experience or booking us for a show, please feel free to drop us a note here.</p>
-					<form method="post" action="#">
+					<form method="post" action="#" id="get-in-touch-form">
 						<div class="row">
-							<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="First name ..." /></div>
-							<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email ..." /></div>
+							<div class="col-6 col-12-mobile"><input type="text" name="name" id="name-input" placeholder="First name ..." /></div>
+							<div class="col-6 col-12-mobile"><input type="text" name="email" id="email-input" placeholder="Email ..." /></div>
 							<div class="col-12">
-								<textarea name="message" placeholder="Message ..."></textarea>
+								<textarea name="message" id="description-input" placeholder="Message ..."></textarea>
 							</div>
+							<div id="success"></div>
 							<div class="col-12">
-								<input type="submit" value="Submit" />
+								<input type="submit" value="Submit" onClick="submitToAPI(event)" />
 							</div>
 						</div>
 					</form>
@@ -140,7 +141,7 @@
 		</div>
 		<div id="footer">
 			<ul class="copyright">
-				<li>&copy; Bummer Status 2022, all rights reserved.</li><li>Design by <a href="https://github.com/michemcc" target="_blank">Michael Ernest McCarthy</a></li>
+				<li>&copy; 2022 Bummer Status, all rights reserved.</li><li>Design by <a href="https://github.com/michemcc" target="_blank">Michael Ernest McCarthy</a></li>
 			</ul>
 		</div>
 		<script src="assets/js/jquery.min.js"></script>
@@ -150,5 +151,6 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script src="assets/js/submitToAPI.js"></script>
 	</body>
 </html>
