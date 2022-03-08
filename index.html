@@ -109,6 +109,7 @@
 					<header>
 						<h2>Past Performances</h2>
 					</header>
+					<p>Union Tavern, Somerville, MA - 3/4/2022</p>
 					<p>Eric's House Show, Somerville, MA - 10/31/2021</p>
 					<p>Union Tavern, Somerville, MA - 9/24/2021</p>
 					<p>Jesse's House Show, Providence, RI - 6/29/2019</p>
@@ -123,12 +124,12 @@
 						<h2>Get In Touch</h2>
 					</header>
 					<p>If you are interested in learning more about the Bummer Status experience or booking us for a show, please feel free to drop us a note here.</p>
-					<form method="post" action="#" id="get-in-touch-form">
+					<form method="post" name="get-in-touch-form" id="get-in-touch-form" novalidate>
 						<div class="row">
-							<div class="col-6 col-12-mobile"><input type="text" name="name" id="name-input" placeholder="First name ..." /></div>
-							<div class="col-6 col-12-mobile"><input type="text" name="email" id="email-input" placeholder="Email ..." /></div>
+							<div class="col-6 col-12-mobile"><input type="text" name="name-input" id="name-input" placeholder="First name ..." required data-validation-required-message="Please enter your name" /></div>
+							<div class="col-6 col-12-mobile"><input type="text" name="email-input" id="email-input" placeholder="Email ..." required data-validation-required-message="Please enter your email address"/></div>
 							<div class="col-12">
-								<textarea name="message" id="description-input" placeholder="Message ..."></textarea>
+								<textarea name="description-input" id="description-input" placeholder="Message ..." required data-validation-required-message="Please enter a message"></textarea>
 							</div>
 							<div id="success"></div>
 							<div class="col-12">

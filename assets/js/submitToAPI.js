@@ -1,6 +1,6 @@
 function submitToAPI(e) {
     e.preventDefault();
-    var URL = "https://r6hm90o5y3.execute-api.us-east-1.amazonaws.com/s3web/submit";
+    var URL = "https://r6hm90o5y3.execute-api.us-east-1.amazonaws.com/s3web/bummer-status-email-send/";
          var Namere = /[A-Za-z]{1}[A-Za-z]/;
          if (!Namere.test($("#name-input").val())) {
                       alert ("Name must be greater than 2 characters");
@@ -27,7 +27,7 @@ function submitToAPI(e) {
 
     $.ajax({
       type: "POST",
-      url : "https://r6hm90o5y3.execute-api.us-east-1.amazonaws.com/s3web/submit",
+      url : "https://r6hm90o5y3.execute-api.us-east-1.amazonaws.com/s3web/bummer-status-email-send/",
       dataType: "json",
       crossDomain: "true",
       contentType: "application/json; charset=utf-8",
