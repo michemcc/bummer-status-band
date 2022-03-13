@@ -1710,10 +1710,17 @@ article > .container, article:last-child {
 	width: 100%;
 }
 
-.image.featured {
+.image.featured img {
 	display: block;
-	width: 100%;
-	margin: 0 0 2em 0;
+	width: 78%;
+	margin: auto;
+	border-radius: 5px;
+}
+
+@media (max-width: 991px) {
+	.image.featured img {
+		width: 100%;
+	}
 }
 
 .image.left {
