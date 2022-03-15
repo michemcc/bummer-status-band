@@ -5,6 +5,7 @@
 		<link rel="shortcut icon" href="images/favicon-16x16.png" type="image/png">  
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
@@ -21,6 +22,7 @@
 						<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Discography</span></a></li>
 						<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Us</span></a></li>
 						<li><a href="#past" id="past-link"><span class="icon solid fa-music">Past Performances</span></a></li>
+						<li><a href="#past" id="past-link"><span class="icon solid fa-image">Gallery</span></a></li>
 						<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Get In Touch</span></a></li>
 					</ul>
 				</nav>
@@ -118,6 +120,34 @@
 					<p>The Met, Providence, RI - 1/13/2017</p>
 				</div>
 			</section>
+			<section id="gallery" class="gallery">
+				<div class="container">
+					<header>
+						<h2>Gallery</h2>
+					</header>
+					<div class="container p-3">
+
+						<div class="fg-gallery">
+							<img src="images/prov-house-show.webp" alt="">
+							<img src="images/union-eli-mike-nick.webp" alt="">
+							<img src="images/union-crowd.webp" alt="">
+							<img src="images/union-doug.webp" alt="">
+							<img src="images/union-doug-2.webp" alt="">
+							<img src="images/union-eli.webp" alt="">
+							<img src="images/union-nick-2.webp" alt="">
+							<img src="images/union-mike.webp" alt="">
+						</div>
+						<div class="fg-gallery ns">
+							<img src="images/union-doug-mike" alt="">
+							<img src="images/union-nick.webp" alt="">
+							<img src="images/union-board.webp" alt="">
+							<img src="images/union-keys.webp" alt="">
+							<img src="images/union-behind.webp" alt="">
+							<img src="images/quick-jam.MOV" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
 			<section id="contact" class="contact">
 				<div class="container">
 					<header>
@@ -153,5 +183,26 @@
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
 		<script src="assets/js/submitToAPI.js"></script>
+		<script src="assets/js/gallery.js"></script>
+		<script>
+			var a = new FgGallery('.fg-gallery', {
+				cols: 4,
+				style: {
+					border: '10px solid #fff',
+					height: '180px',
+					borderRadius: '5px',
+					boxShadow: '0 2px 10px -5px #858585',
+				}
+			})
+	
+			var a = new FgGallery('.ns', {
+				cols: 3,
+				style: {
+					border: '0 solid #fff',
+					height: '240px',
+					borderRadius: '5px',
+				}
+			})
+		</script>
 	</body>
 </html>
