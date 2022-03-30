@@ -2163,6 +2163,9 @@ ul.icons a {
 	background-color: #81918E;
 	background: linear-gradient(0deg, rgba(15, 15, 15, 0.7), rgba(15, 15, 15, 0.7)), url("../../images/bummer-fullband.webp");
 }
+#main > section.whatsnew {
+	background-color: #ecf1f1;
+}
 #main > section.discography {
 	background-color: #f5fafa;
 }
@@ -2177,6 +2180,20 @@ ul.icons a {
 }
 #main > section.contact {
 	background-color: #e5edec;
+}
+
+.whatsnew {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.whatsnew iframe {
+    max-width: 100%;
+}
+
+.contact form {
+	max-width: 97%;
 }
 
 /* Wide */
