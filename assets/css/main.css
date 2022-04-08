@@ -297,32 +297,25 @@ align-items: stretch;
 .row > .off-11 {
 	margin-left: 91.66667%;
 }
-
 .row > .col-12 {
 	width: 100%;
 }
-
 .row > .off-12 {
 	margin-left: 100%;
 }
-
 .row.gtr-0 {
 	margin-top: 0px;
 	margin-left: 0px;
 }
-
-	.row.gtr-0 > * {
-		padding: 0px 0 0 0px;
-	}
-
-	.row.gtr-0.gtr-uniform {
-		margin-top: 0px;
-	}
-
-		.row.gtr-0.gtr-uniform > * {
-			padding-top: 0px;
-		}
-
+.row.gtr-0 > * {
+	padding: 0px 0 0 0px;
+}
+.row.gtr-0.gtr-uniform {
+	margin-top: 0px;
+}
+.row.gtr-0.gtr-uniform > * {
+	padding-top: 0px;
+}
 .row.gtr-25 {
 	margin-top: -10px;
 	margin-left: -10px;
