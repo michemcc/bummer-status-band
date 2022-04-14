@@ -539,23 +539,19 @@ align-items: stretch;
 	.row.gtr-uniform > * {
 		padding-top: 40px;
 	}
-		.row.gtr-150 {
-			margin-top: -60px;
-			margin-left: -60px;
-		}
-
-			.row.gtr-150 > * {
-				padding: 60px 0 0 60px;
-			}
-
-			.row.gtr-150.gtr-uniform {
-				margin-top: -60px;
-			}
-
-				.row.gtr-150.gtr-uniform > * {
-					padding-top: 60px;
-				}
-
+	.row.gtr-150 {
+		margin-top: -60px;
+		margin-left: -60px;
+	}
+	.row.gtr-150 > * {
+		padding: 60px 0 0 60px;
+	}
+	.row.gtr-150.gtr-uniform {
+		margin-top: -60px;
+	}
+	.row.gtr-150.gtr-uniform > * {
+		padding-top: 60px;
+	}
 		.row.gtr-200 {
 			margin-top: -80px;
 			margin-left: -80px;
