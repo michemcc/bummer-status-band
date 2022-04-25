@@ -592,19 +592,15 @@ align-items: stretch;
 	.row.aln-top {
 		align-items: flex-start;
 	}
-
-		.row.aln-middle {
-			align-items: center;
-		}
-
-		.row.aln-bottom {
-			align-items: flex-end;
-		}
-
-		.row > .imp-normal {
-			order: -1;
-		}
-
+	.row.aln-middle {
+		align-items: center;
+	}
+	.row.aln-bottom {
+		align-items: flex-end;
+	}
+	.row > .imp-normal {
+		order: -1;
+	}
 		.row > .col-1-normal {
 			width: 8.33333%;
 		}
