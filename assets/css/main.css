@@ -748,10 +748,9 @@ align-items: stretch;
 	.row.gtr-200.gtr-uniform {
 		margin-top: -80px;
 	}
-				.row.gtr-200.gtr-uniform > * {
-					padding-top: 80px;
-				}
-
+	.row.gtr-200.gtr-uniform > * {
+		padding-top: 80px;
+	}
 }
 
 @media screen and (min-width: 961px) and (max-width: 1320px) {
