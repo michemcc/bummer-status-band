@@ -769,15 +769,12 @@ align-items: stretch;
 		.row.aln-left {
 			justify-content: flex-start;
 		}
-
 		.row.aln-center {
 			justify-content: center;
 		}
-
 		.row.aln-right {
 			justify-content: flex-end;
 		}
-
 		.row.aln-top {
 			align-items: flex-start;
 		}
