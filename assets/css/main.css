@@ -754,22 +754,18 @@ align-items: stretch;
 }
 
 @media screen and (min-width: 961px) and (max-width: 1320px) {
-
 	.row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
 	}
-
 		.row > * {
 			box-sizing: border-box;
 		}
-
 		.row.gtr-uniform > * > :last-child {
 			margin-bottom: 0;
 		}
-
 		.row.aln-left {
 			justify-content: flex-start;
 		}
