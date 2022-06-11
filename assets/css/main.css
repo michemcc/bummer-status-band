@@ -795,47 +795,36 @@ align-items: stretch;
 		.row > .off-1-narrow {
 			margin-left: 8.33333%;
 		}
-
 		.row > .col-2-narrow {
 			width: 16.66667%;
 		}
-
 		.row > .off-2-narrow {
 			margin-left: 16.66667%;
 		}
-
 		.row > .col-3-narrow {
 			width: 25%;
 		}
-
 		.row > .off-3-narrow {
 			margin-left: 25%;
 		}
-
 		.row > .col-4-narrow {
 			width: 33.33333%;
 		}
-
 		.row > .off-4-narrow {
 			margin-left: 33.33333%;
 		}
-
 		.row > .col-5-narrow {
 			width: 41.66667%;
 		}
-
 		.row > .off-5-narrow {
 			margin-left: 41.66667%;
 		}
-
 		.row > .col-6-narrow {
 			width: 50%;
 		}
-
 		.row > .off-6-narrow {
 			margin-left: 50%;
 		}
-
 		.row > .col-7-narrow {
 			width: 58.33333%;
 		}
